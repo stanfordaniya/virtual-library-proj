@@ -25,8 +25,10 @@ My portfolio is designed to be simple and user-friendly for those looking to fin
 ## Screenshots
 ### Example One:
 <img src="images/example.png" alt="Example One" width="800">
+
 ### Example Two:
 <img src="images/example_two.png" alt="Example Two" width="800">
+
 ### Example Three:
 <img src="images/example_one.png" alt="Example Three" width="800">
 
