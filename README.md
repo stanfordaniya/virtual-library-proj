@@ -20,7 +20,7 @@ This project is a virtual library web application. The application allows users 
    npm install
 
 ## Usage
-My portfolio is designed to be simple and user-friendly.
+My portfolio is designed to be simple and user-friendly for those looking to find books.
 
 ## Screenshots
 ### Example One:
