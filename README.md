@@ -26,13 +26,10 @@ My portfolio is designed to be simple and user-friendly.
 
 ## Screenshots
 
-### Large Image
-<img src="images/example.png" alt="Large Image" width="800">
+<img src="images/example.png" alt="Example One" width="800">
 
-### Medium Image
-<img src="images/example_two.png" alt="Medium Image" width="500">
+<img src="images/example_two.png" alt="Example Two" width="800">
 
-### Small Image
-<img src="images/example_one.png" alt="Small Image" width="300">
+<img src="images/example_one.png" alt="Example Three" width="800">
 
 
