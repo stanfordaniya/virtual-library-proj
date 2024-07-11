@@ -6,9 +6,7 @@ This project is a virtual library web application. The application allows users 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Screenshots](#screenshots)
 
 ## Installation
 1. Clone the repository:
@@ -25,11 +23,11 @@ This project is a virtual library web application. The application allows users 
 My portfolio is designed to be simple and user-friendly.
 
 ## Screenshots
-
+### Example One:
 <img src="images/example.png" alt="Example One" width="800">
-
+### Example Two:
 <img src="images/example_two.png" alt="Example Two" width="800">
-
+### Example Three:
 <img src="images/example_one.png" alt="Example Three" width="800">
 
 
