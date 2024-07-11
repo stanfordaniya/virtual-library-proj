@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #441b07;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+header button {
+    padding: 10px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.book {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    cursor: pointer; /* Add pointer cursor */
+    transition: transform 0.2s; /* Add a transition effect */
+}
+
+.book:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.toggle-description {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #441b07;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.toggle-description:hover {
+    background-color: #441b07;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin: 20px; /* Ensure margin to separate from books */
+}
+
+.pagination-controls button {
+    padding: 5px 10px; /* Smaller padding */
+    margin: 0 5px; /* Smaller margin */
+    background-color: #441b07;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px; /* Smaller border-radius */
+    font-size: 12px; /* Smaller font size */
+    height: 30px; /* Consistent button height */
+    line-height: 30px; /* Center text vertically */
+    width: auto; /* Adjust width automatically */
+    min-width: 60px; /* Minimum width for consistency */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-controls button:hover {
+    background-color: #441b07;
+}
+
+footer {
+    background-color: #441b07;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    flex-shrink: 0; /* Ensure the footer doesn't shrink */
+}
